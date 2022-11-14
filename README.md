@@ -66,6 +66,17 @@ subnet  192.196.1.0 netmask 255.255.255.0 {
 }
 ```
 
+Kemudian, restart dhcp server pada node Westalis dengan menggunakan command `service isc-dhcp-server restart`.
+
+Pada klien (node SSS dan Garden), atur konfigurasi jaringannya dengan cara klik kanan pada masing-masing node, lalu pilih **configure** dan **edit network configuration**. Setelah masukkan script berikut.
+
+```
+  auto eth0
+  iface eth0 inet dhcp
+```
+
+Lalu, restart klien (node SSS dan Garden). Untuk mengecek apakah kita sudah berhasil memberikan IP dinamis lewat DHCP, lihat IP masing-masing klien dengan menggunakan command `ip a` pada web console.
+  
 ## No. 4
 ### Soal
 Client yang melalui Switch3 mendapatkan range IP dari [prefix IP].3.10 - [prefix IP].3.30 dan [prefix IP].3.60 - [prefix IP].3.85
@@ -85,6 +96,17 @@ subnet  192.196.3.0 netmask 255.255.255.0 {
     max-lease-time 7200;
 }
 ```
+
+Kemudian, restart dhcp server pada node Westalis dengan menggunakan command `service isc-dhcp-server restart`.
+
+Pada klien (node Eden, NewstonCastle, dan KemonoPark), atur konfigurasi jaringannya dengan cara klik kanan pada masing-masing node, lalu pilih **configure** dan **edit network configuration**. Setelah masukkan script berikut.
+
+```
+  auto eth0
+  iface eth0 inet dhcp
+```
+
+Lalu, restart klien (node Eden, NewstonCastle, dan KemonoPark). Untuk mengecek apakah kita sudah berhasil memberikan IP dinamis lewat DHCP, lihat IP masing-masing klien dengan menggunakan command `ip a` pada web console.
 
 ## No. 5
 
