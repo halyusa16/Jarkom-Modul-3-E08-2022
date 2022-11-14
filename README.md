@@ -16,17 +16,21 @@ Loid bersama Franky berencana membuat peta tersebut dengan kriteria WISE sebagai
 ### Jawaban
 Kita buat topologi sesuai dengan ketentuan soal, lalu konfigurasi masing-masing node sesuai dengan ketentuan soal.
 
-### Wise
+<ul>
+  <li>Wise</li>
+  
 Node Wise sebagai DNS Server:
 
 <img src="https://github.com/halyusa16/Jarkom-Modul-3-E08-2022/blob/main/img/No1_Wise.png" width=50%>
 
-### Westalis 
+ <li>Westalis</li>
+  
 Node Westalis sebagai DHCP Server:
 
 <img src="https://github.com/halyusa16/Jarkom-Modul-3-E08-2022/blob/main/img/No1_Westalis.png" width=50%>
 
-### Berlint 
+ <li>Berlint</li> 
+  
 Node Berlint sebagai Proxy Server:
 
 <img src="https://github.com/halyusa16/Jarkom-Modul-3-E08-2022/blob/main/img/No1_Berlint.png" width=50%>
@@ -35,6 +39,10 @@ Node Berlint sebagai Proxy Server:
 ### Soal
 Ostania sebagai DHCP Relay (2).
 
+### Jawaban
+  
+Konfigurasi Node Ostania sesuai dengan untuk DHCP Relay.
+  
 <img src="https://github.com/halyusa16/Jarkom-Modul-3-E08-2022/blob/main/img/No2_Ostania.png" width=50%>
 
 
