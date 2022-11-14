@@ -7,6 +7,7 @@ Laporan Resmi Praktikum III Jaringan Komputer oleh Kelompok E08
 | 2. | Muhammad Ismail | 5025201223 |
 | 3. | Immanuel Maruli Tua Pardede | 5025201166 |
 
+### Topologi
 <img src="https://github.com/halyusa16/Jarkom-Modul-3-E08-2022/blob/main/img/Topologi.png" width=50%>
 
 ## No. 1
