@@ -6,3 +6,35 @@ Laporan Resmi Praktikum III Jaringan Komputer oleh Kelompok E08
 | 1. | Halyusa Ard Wahyudi | 5025201088 |
 | 2. | Muhammad Ismail | 5025201223 |
 | 3. | Immanuel Maruli Tua Pardede | 5025201166 |
+
+<img src="https://github.com/halyusa16/Jarkom-Modul-3-E08-2022/blob/main/img/Topologi.png" width=50%>
+
+## No. 1
+### Soal
+Loid bersama Franky berencana membuat peta tersebut dengan kriteria WISE sebagai DNS Server, Westalis sebagai DHCP Server, Berlint sebagai Proxy Server (1).
+
+### Jawaban
+Kita buat topologi sesuai dengan ketentuan soal, lalu konfigurasi masing-masing node sesuai dengan ketentuan soal.
+
+### Wise
+Node Wise sebagai DNS Server:
+
+<img src="https://github.com/halyusa16/Jarkom-Modul-3-E08-2022/blob/main/img/No1_Wise.png" width=50%>
+
+### Westalis 
+Node Westalis sebagai DHCP Server:
+
+<img src="https://github.com/halyusa16/Jarkom-Modul-3-E08-2022/blob/main/img/No1_Westalis.png" width=50%>
+
+### Berlint 
+Node Berlint sebagai Proxy Server:
+
+<img src="https://github.com/halyusa16/Jarkom-Modul-3-E08-2022/blob/main/img/No1_Berlint.png" width=50%>
+
+## No. 2
+### Soal
+Ostania sebagai DHCP Relay (2).
+
+<img src="https://github.com/halyusa16/Jarkom-Modul-3-E08-2022/blob/main/img/No2_Ostania.png" width=50%>
+
+
