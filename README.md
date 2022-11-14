@@ -46,6 +46,46 @@ Konfigurasi Node Ostania sesuai dengan untuk DHCP Relay.
   
 <img src="https://github.com/halyusa16/Jarkom-Modul-3-E08-2022/blob/main/img/No2_Ostania.png" width=50%>
 
+## No. 3
+### Soal
+Client yang melalui Switch1 mendapatkan range IP dari [prefix IP].1.50 - [prefix IP].1.88 dan [prefix IP].1.120 - [prefix IP].1.155
+
+### Jawaban
+  
+Pada node Westalis (sebagai DHCP Server), kita tambahkan script berikut ke dalam file konfigurasi dhcp server dengan menggunakan command `nano /etc/dhcp/dhcpd.conf`. Pada script tersebut, kita menggunakan nid subnet 192.196.1.0 karena Switch1.
+
+```
+subnet  192.196.1.0 netmask 255.255.255.0 {
+    range 192.196.1.50  192.196.1.88;
+    range  192.196.1.120 192.196.1.155;
+    option routers  192.196.1.1;
+    option broadcast-address  192.196.1.255;
+    option domain-name-servers 192.196.2.2;
+    default-lease-time 360;
+    max-lease-time 7200;
+}
+```
+
+## No. 4
+### Soal
+Client yang melalui Switch3 mendapatkan range IP dari [prefix IP].3.10 - [prefix IP].3.30 dan [prefix IP].3.60 - [prefix IP].3.85
+
+### Jawaban
+  
+Pada node Westalis (sebagai DHCP Server), kita tambahkan script berikut ke dalam file konfigurasi dhcp server dengan menggunakan command `nano /etc/dhcp/dhcpd.conf`. Pada script tersebut, kita menggunakan nid subnet 192.196.3.0 karena Switch3.
+
+```
+subnet  192.196.3.0 netmask 255.255.255.0 {
+    range 192.196.3.10  192.196.3.30;
+    range  192.196.3.60 192.196.3.85;
+    option routers  192.196.3.1;
+    option broadcast-address  192.196.3.255;
+    option domain-name-servers 192.196.2.2;
+    default-lease-time 360;
+    max-lease-time 7200;
+}
+```
+
 ## No. 5
 
 Client mendapatkan DNS dari WISE dan client dapat terhubung dengan internet melalui DNS tersebut.
